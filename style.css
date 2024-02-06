@@ -1,0 +1,45 @@
+*{
+   box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.parent{
+    height: 200px;
+    padding: 50px 0 70px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.box{
+    width: 85px;
+    height: 85px;
+    border: 1px solid black;
+}
+#box1{
+  background-color: red;
+}
+
+#box2{
+    background-color: blue;
+}
+
+#box3{
+    background-color: white;
+}
+
+#box4{
+    background-color: yellow;
+}
+.head{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    margin-top: 6rem;
+}
+h2{
+    margin-top: 3rem;
+}
+ 
